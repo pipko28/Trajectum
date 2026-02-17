@@ -1,0 +1,13 @@
+executable              = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/3_analyse.sh
+arguments               = "$(JOBID)"
+log                     = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/analysis/test.log
+output                  = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/analysis/outfile_analyse.txt
+error                   = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/analysis/errors_analyse.txt
+
++UseOS                  = "el9"
++JobCategory            = "medium"
+
+request_cpus            = 1
+request_memory          = 64G
+
+queue 1

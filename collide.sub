@@ -1,0 +1,14 @@
+executable              = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/1_collide.sh
+arguments               = "$(Process)"
+log                     = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/$(Process)/test.log
+output                  = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/$(Process)/outfile_collide.txt
+error                   = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/$(Process)/errors_collide.txt
+
++UseOS                  = "el9"
++JobCategory            = "short"
+
+request_cpus            = 1
+request_memory          = 64G
+
+queue 100
+

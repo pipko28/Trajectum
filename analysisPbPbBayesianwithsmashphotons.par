@@ -1,0 +1,1701 @@
+inputoutput{
+	input=/data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/merged/PbPb.afterburned
+	bypassinput=/data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/merged/PbPb.bypass
+	photoninput=/data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/merged/PbPb.photons
+	geometryinput=/data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/merged/PbPb.geometry
+	auxiliaryinput=/data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/merged/PbPb.extra
+	output=PbPb
+	format=smash
+	ntrkoffname1=ALICETPC
+	ntrkoffcentralitytype1=tracks
+	ntrkoffesetype1=qn
+	ntrkoffchargeselection1=charged
+	ntrkofflowptcut1=200
+	ntrkoffhighptcut1=10000
+	ntrkoffetamaxforward1=2.4
+	ntrkoffeseorder1=2
+	ntrkoffname2=ATLASMAC
+	ntrkoffcentralitytype2=tracks
+	ntrkoffesetype2=qn
+	ntrkoffchargeselection2=charged
+	ntrkofflowptcut2=500
+	ntrkoffhighptcut2=2000
+	ntrkoffetamaxforward2=2.5
+	ntrkoffetaminforward2=0.75
+	ntrkoffeseorder2=2
+}
+
+
+impactparameter{
+}
+
+nuclearshape{
+}
+
+nuclearmatrixelement{
+}
+
+projectileangles{
+	numbins=40
+}
+
+numpart{
+}
+
+ZDCasymmetry{
+	numbinsalphazn=20
+	numbinszdcsignal=20
+	alphaznmax=1
+	zdcsignalmax=50
+}
+
+ZDCprotonasymmetry{
+	numbinsalphazp=20
+	numbinszdcsignal=20
+	alphazpmax=1
+	zdcsignalmax=50
+}
+
+initialrms{
+}
+
+initialthermodynamics{
+}
+
+timedependentthermodynamics{
+	numtimesteps=51
+	lowerbound=0.5
+	upperbound=13
+}
+
+pathlengthobservablelightconeT3vovergammaplaneorder2{
+	numbinslowerrange=10
+	numbinsmiddlerange=20
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=0.05
+	upperrangelowerbound=0.1
+	upperbound=0.15
+	lowptcut=400
+	highptcut=10000
+	etamaxforward=2.4
+	etaminforward=0
+	etamaxbackward=2.4
+	etaminbackward=0
+	planethreshold=0
+}
+
+multiplicity{
+	lowerptbound=0
+	upperptbound=10000
+	etamax=0.5
+}
+
+multiplicitypion{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicitykaon{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicityeta{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicityproton{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicityneutron{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicitylambda{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicityxi{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicityomega{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicitythermalphoton{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicitythermaldilepton{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicityptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	etamax=0.5
+}
+
+multiplicitypionptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicitykaonptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicityetaptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicityprotonptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicityneutronptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicitylambdaptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicityxiptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicityomegaptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicitythermalphotonptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicitythermaldileptonptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicitycharged{
+	lowerptbound=0
+	upperptbound=10000
+	etamax=0.5
+}
+
+multiplicitychargedpion{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicitychargedkaon{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicitychargedxi{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+multiplicitychargedptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	etamax=0.5
+}
+
+multiplicitychargedpionptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicitychargedkaonptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+multiplicitychargedxiptbinned{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	ymax=0.5
+}
+
+V0amplitudecharged{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1
+	upperrangelowerbound=2
+	upperbound=5
+	lowptcut=400
+	highptcut=10000
+	etamaxforward=2.4
+	etaminforward=0
+	etamaxbackward=2.4
+	etaminbackward=0
+	etweightpower=0
+}
+
+V0amplitudemanualcharged{
+	numbinslowerrange=20
+	numbinsmiddlerange=10
+	numbinsupperrange=10
+	lowerbound=0
+	lowerrangeupperbound=1
+	upperrangelowerbound=2
+	upperbound=5
+	lowptcut=400
+	highptcut=10000
+	etamaxforward=2.4
+	etaminforward=0
+	etamaxbackward=2.4
+	etaminbackward=0
+	etweightpower=0
+	V0mean=1105
+}
+
+meanpt{
+	lowerptbound=0
+	upperptbound=10000
+	etamax=0.5
+}
+
+meanptpion{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanptkaon{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanpteta{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanptproton{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanptneutron{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanptlambda{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanptxi{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanptomega{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanptthermalphoton{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanptthermaldilepton{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanptcharged{
+	lowerptbound=0
+	upperptbound=10000
+	etamax=0.5
+}
+
+meanptchargedpion{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanptchargedkaon{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanptchargedxi{
+	lowerptbound=0
+	upperptbound=10000
+	ymax=0.5
+}
+
+meanet{
+	lowerptbound=0
+	upperptbound=10000
+	etamax=0.6
+}
+
+ptfluctuations{
+	lowerptbound=150
+	upperptbound=2000
+	etamax=0.8
+}
+
+ptfluctuationsthermalphoton{
+	lowerptbound=150
+	upperptbound=2000
+	ymax=0.8
+}
+
+ptfluctuationsthermaldilepton{
+	lowerptbound=150
+	upperptbound=2000
+	ymax=0.8
+}
+
+ptfluctuationscharged{
+	lowerptbound=150
+	upperptbound=2000
+	etamax=0.8
+}
+
+ptfluctuationssubevent{
+	lowerptbound=150
+	upperptbound=2000
+	etamax=0.8
+	etagap=1
+}
+
+ptfluctuationschargedsubevent{
+	lowerptbound=150
+	upperptbound=2000
+	etamax=0.8
+	etagap=1
+}
+
+ptfluctuationschargedsubeventunitweights{
+	lowerptbound=150
+	upperptbound=2000
+	etamax=0.8
+	etagap=1
+}
+
+ptfluctuationsunitweights{
+	lowerptbound=150
+	upperptbound=2000
+	etamax=0.8
+}
+
+ptfluctuationschargedunitweights{
+	lowerptbound=150
+	upperptbound=2000
+	etamax=0.8
+}
+
+ptfluctuationscumulantweights{
+	lowerptbound=150
+	upperptbound=2000
+	etamax=0.8
+}
+
+ptfluctuationschargedcumulantweights{
+	lowerptbound=150
+	upperptbound=2000
+	etamax=0.8
+}
+
+meanptlongitudinalcorrelationssamecovweightsv1{
+	lowerbound=150
+	upperbound=2000
+	etamax=0.8
+	etaboundregiona=0.5
+	etaboundregionb=0.3
+}
+
+meanptlongitudinalcorrelationschargedsamecovweightsv1{
+	lowerbound=150
+	upperbound=2000
+	etamax=0.8
+	etaboundregiona=0.5
+	etaboundregionb=0.3
+}
+
+v2cumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v2thermalphotoncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v2thermaldileptoncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v2cumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	etamax=0.8
+}
+
+v2pioncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v2pioncumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2pioncumulantsybinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=10
+	numbinsupperrange=5
+	lowerbound=-5
+	lowerrangeupperbound=-2.5
+	upperrangelowerbound=2.5
+	upperbound=5
+	ptlowerbound=0
+	ptupperbound=100000
+	referenceymax=5
+}
+
+v2pionsubevent{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v2pionsubeventptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+	ygap=1
+}
+
+v2pionSP{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v2pionSPptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=0
+	referenceupperbound=100000
+	ymax=0.5
+	ygap=2
+}
+
+v2chargedpioncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v2neutralpioncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v2chargedpioncumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2neutralpioncumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2chargedpioncumulantsybinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=10
+	numbinsupperrange=5
+	lowerbound=-5
+	lowerrangeupperbound=-2.5
+	upperrangelowerbound=2.5
+	upperbound=5
+	ptlowerbound=0
+	ptupperbound=100000
+	referenceymax=5
+}
+
+v2neutralpioncumulantsybinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=10
+	numbinsupperrange=5
+	lowerbound=-5
+	lowerrangeupperbound=-2.5
+	upperrangelowerbound=2.5
+	upperbound=5
+	ptlowerbound=0
+	ptupperbound=100000
+	referenceymax=5
+}
+
+v2chargedpionsubevent{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v2neutralpionsubevent{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v2chargedpionsubeventptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+	ygap=1
+}
+
+v2neutralpionsubeventptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+	ygap=1
+}
+
+v2chargedpionSP{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v2neutralpionSP{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v2chargedpionSPptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=0
+	referenceupperbound=100000
+	ymax=0.5
+	ygap=2
+}
+
+v2neutralpionSPptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=0
+	referenceupperbound=100000
+	ymax=0.5
+	ygap=2
+}
+
+v3pioncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v3pioncumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v3pioncumulantsybinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=10
+	numbinsupperrange=5
+	lowerbound=-5
+	lowerrangeupperbound=-2.5
+	upperrangelowerbound=2.5
+	upperbound=5
+	ptlowerbound=0
+	ptupperbound=100000
+	referenceymax=5
+}
+
+v3chargedpioncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v3chargedpioncumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v3chargedpionsubevent{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v3chargedpionsubeventptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+	ygap=1
+}
+
+v3pionsubevent{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v3pionsubeventptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+	ygap=1
+}
+
+v3pionSP{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v3pionSPptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=0
+	referenceupperbound=100000
+	ymax=0.5
+	ygap=2
+}
+
+v3chargedpionSP{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v3chargedpionSPptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=0
+	referenceupperbound=100000
+	ymax=0.5
+	ygap=2
+}
+
+v4pioncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v4pioncumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v4chargedpioncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v4chargedpioncumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v4pionsubevent{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v4pionsubeventptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+	ygap=1
+}
+
+v4chargedpionsubevent{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v4chargedpionsubeventptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+	ygap=1
+}
+
+v4pionSP{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v4pionSPptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=0
+	referenceupperbound=100000
+	ymax=0.5
+	ygap=2
+}
+
+v4chargedpionSP{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+	ygap=1
+}
+
+v4chargedpionSPptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=0
+	referenceupperbound=100000
+	ymax=0.5
+	ygap=2
+}
+
+v2kaoncumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2etacumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2protoncumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2neutroncumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2lambdacumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2xicumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2omegacumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2chargedcumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v2chargedcumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	etamax=0.8
+}
+
+
+v2chargedkaoncumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2chargedxicumulantsptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	ymax=0.8
+}
+
+v2subevent{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+	etagap=1
+}
+
+v2subeventptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=300
+	referenceupperbound=6000
+	etamax=0.8
+	etagap=1
+}
+
+v2chargedsubevent{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+	etagap=1
+}
+
+v2SP{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+	etagap=1
+}
+
+v2SPptbinned{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=0
+	referenceupperbound=100000
+	etamax=0.5
+	etagap=2
+}
+
+v2chargedSP{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+	etagap=1
+}
+
+v3cumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v3thermalphotoncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v3thermaldileptoncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v3chargedcumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v4cumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v4thermalphotoncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v4thermaldileptoncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v4chargedcumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v5cumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v5thermalphotoncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v5thermaldileptoncumulants{
+	lowerbound=200
+	upperbound=5000
+	ymax=0.8
+}
+
+v5chargedcumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v6cumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v6chargedcumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v7cumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v7chargedcumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v8cumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v8chargedcumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v9cumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v9chargedcumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v10cumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+v10chargedcumulants{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+}
+
+eventplanecorrelations6x-6x0x0x0x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=0.5
+}
+
+eventplanecorrelations4x0x-4x0x0x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=0.5
+}
+
+eventplanecorrelations8x0x-8x0x0x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=0.5
+}
+
+eventplanecorrelations12x0x-12x0x0x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=0.5
+}
+
+eventplanecorrelations6x0x0x0x-6x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=0.5
+}
+
+eventplanecorrelations0x6x0x0x-6x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=0.5
+}
+
+eventplanecorrelations2x3x0x-5x0x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=1.5
+	etaboundregionb=1
+}
+
+eventplanecorrelations8x-3x0x-5x0x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=1.5
+	etaboundregionb=1
+}
+
+eventplanecorrelations2x0x4x0x-6x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=1.5
+	etaboundregionb=1
+}
+
+eventplanecorrelations10x0x-4x0x-6x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=1.5
+	etaboundregionb=1
+}
+
+eventplanecorrelations2x-6x4x0x0x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=1.5
+	etaboundregionb=1
+}
+
+eventplanecorrelations10x-6x-4x0x0x0x0x0x0charged{
+	lowerbound=500
+	upperbound=5000
+	etamax=2.5
+	etaboundregiona=1.5
+	etaboundregionb=1
+}
+
+SC32charged{
+	lowerptbound=300
+	upperptbound=3000
+	etamax=2.4
+}
+
+SC42charged{
+	lowerptbound=300
+	upperptbound=3000
+	etamax=2.4
+}
+
+SC43charged{
+	lowerptbound=300
+	upperptbound=3000
+	etamax=2.4
+}
+
+SC432charged{
+	lowerptbound=300
+	upperptbound=3000
+	etamax=2.4
+}
+
+SC532charged{
+	lowerptbound=300
+	upperptbound=3000
+	etamax=2.4
+}
+
+nonlinearv422charged{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+	etagap=0.8
+}
+
+nonlinearv532charged{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+	etagap=0.8
+}
+
+nonlinearv6222charged{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+	etagap=0.8
+}
+
+nonlinearv633charged{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+	etagap=0.8
+}
+
+nonlinearv642charged{
+	lowerbound=200
+	upperbound=5000
+	etamax=0.8
+	etagap=0.8
+}
+
+meanptv2correlationscharged1subeventsamecovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+}
+
+meanptv2correlationscharged2subeventsamecovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+	etaboundregiona=0.35
+}
+
+meanptv2correlationscharged3subeventunitweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+	etaboundregiona=0.35
+	etaboundregionb=0.3
+}
+
+meanptv2correlationscharged3subeventsamecovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+	etaboundregiona=0.35
+	etaboundregionb=0.3
+}
+
+meanptv2correlationscharged3subeventdifferentcovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+	etaboundregiona=0.35
+	etaboundregionb=0.3
+}
+
+meanptv3correlationscharged1subeventsamecovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+}
+
+meanptv3correlationscharged3subeventsamecovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+	etaboundregiona=0.35
+	etaboundregionb=0.3
+}
+
+meanptv4correlationscharged1subeventsamecovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+}
+
+meanptv4correlationscharged3subeventsamecovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+	etaboundregiona=0.35
+	etaboundregionb=0.3
+}
+
+meanptv5correlationscharged1subeventsamecovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+}
+
+meanptv5correlationscharged3subeventsamecovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+	etaboundregiona=0.35
+	etaboundregionb=0.3
+}
+
+meanptv6correlationscharged1subeventsamecovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+}
+
+meanptv6correlationscharged3subeventsamecovweights{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+	etaboundregiona=0.35
+	etaboundregionb=0.3
+}
+
+meanptv2v3correlationscharged{
+	lowerbound=500
+	upperbound=2000
+	etamax=2.5
+	etaboundregiona=0.75
+	etaboundregionb=0.5
+}
+
+ncollv2correlationscharged{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+	etaboundregiona=0.35
+}
+
+ncollv3correlationscharged{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+	etaboundregiona=0.35
+}
+
+ncollv4correlationscharged{
+	lowerbound=500
+	upperbound=5000
+	etamax=1
+	etaboundregiona=0.35
+}
+
+flowvectorfluctuations2charged{
+	numbinslowerrange=5
+	numbinsmiddlerange=4
+	numbinsupperrange=4
+	lowerbound=0
+	lowerrangeupperbound=1000
+	upperrangelowerbound=2000
+	upperbound=4000
+	referencelowerbound=200
+	referenceupperbound=5000
+	etamax=0.8
+	etagap=0.8
+}
+
+lambdaspinaveragex{
+	lowerptbound=200
+	upperptbound=5000
+	ymax=0.8
+}
+
+lambdaspinaveragey{
+	lowerptbound=200
+	upperptbound=5000
+	ymax=0.8
+}
+
+lambdaspinaveragez{
+	lowerptbound=200
+	upperptbound=5000
+	ymax=0.8
+}

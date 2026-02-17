@@ -1,0 +1,13 @@
+executable              = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/4_collect.sh
+
+log                     = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/collect/test.log
+output                  = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/collect/outfile_collect.txt
+error                   = /data/alice/kpipal/Trajectum/SUBMISSION/PbPb2D/collect/errors_collect.txt
+
++UseOS                  = "el9"
++JobCategory            = "short"
+
+request_cpus            = 1
+request_memory          = 64G
+
+queue 1

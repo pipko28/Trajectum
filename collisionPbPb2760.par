@@ -1,0 +1,81 @@
+general{
+	output=PbPb
+	format=smash
+	f0500=true
+	numevents=500
+	npdfa=EPPS21nlo_CT18Anlo_Pb208/0
+	npdfb=EPPS21nlo_CT18Anlo_Pb208/0
+	hadronizermaxparticles=100000
+	hardprocessmaxparticles=10000
+	hardprocessmaxgeometryoutputs=10000
+}
+
+entropyacceptanceprobability{
+	0:0.1
+	100:0.1
+}
+
+oversampling{
+	0:1
+	15:1.5
+	25:2.2
+	35:3.3
+	45:5.3
+	55:9.3
+	65:19
+	75:45
+	85:100
+	100:100
+}
+
+trentodminsubstructurePbPb{
+	localdensityradius=3
+	maxspatialdistance=3
+	maxmomentumdistance=300
+	deuteronnorm=0.75
+	tritonnorm=0.25
+	he3norm=0.25
+	maxneighbordistance=3
+	untabulateddecayprobability=0.5
+	dmin=0.8001
+	w=0.9052
+	sigmann=63
+	sigmafluct=0.8054
+	p=0.0386
+	norm=17.84
+	nc=5
+	voverw=0.4641664162615996
+}
+
+freestreaminghybridprehydrodynamicstage{
+	freestreamingreferencetime=0.4498
+	freestreamingvelocity=0.7877
+}
+
+secondorderhydro{
+	numlatticesites=136
+	latticesize=34
+	rhomax=10
+}
+
+musclsolverktminmodfastmidpoint{
+	cflconstant=0.08
+}
+
+LatticeEOStempdepDuke{
+	shearhrg=0.0672
+	shearmin=0.0672
+	shearslope=0.8927
+	shearcrv=-0.0264
+	shearrelaxationtime=4.785
+	bulkmax=0.00622
+	bulkT0=0.1987
+	bulkwidth=0.0871
+	bulkrelaxationtime=0.1295
+	taupipiovertaupi=2.2305
+}
+
+cooperfryehadronizer{
+	freezeouttemp=148.07
+	rapidityrange=2.5
+}
